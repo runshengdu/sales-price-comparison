@@ -4,7 +4,7 @@ description: >-
   销售比价与报价查询。当用户询问大语言模型、视频生成模型、图像生成模型、世界模型、具身智能模型API 价格/Token 报价，或查询服务器硬件（如 AI/GPU 服务器、机架式服务器、戴尔/浪潮/华为/新华三/联想/超微服务器及 CPU/GPU/内存/企业级硬盘配件）的价格、报价、比价时触发本 Skill。
 metadata:
   author: "runsheng_du"
-  version: "1.0.0"
+  version: "1.0.1"
 ---
 
 # 销售比价 Skill (Sales Price Comparison)
