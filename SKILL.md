@@ -1,10 +1,10 @@
 ---
 name: sales-price-comparison
 description: >-
-  销售比价与报价查询。当用户询问大语言模型、视频生成模型、图像生成模型、世界模型、具身智能模型API 价格/Token 报价，或查询服务器硬件（如 AI/GPU 服务器、机架式服务器、戴尔/浪潮/华为/新华三/联想/超微服务器及 CPU/GPU/内存/企业级硬盘配件）的价格、报价、比价时触发本 Skill。
+  销售比价与报价查询。当用户询问大语言模型、视频生成模型、图像生成模型、世界模型、具身智能模型API 价格/Token 报价，或查询服务器硬件（如 AI/GPU 服务器、机架式服务器、戴尔/浪潮/华为/新华三/联想/超微服务器及 CPU/GPU/内存/企业级硬盘配件）的价格、报价、比价，或要求检查/更新本 Skill 时触发。
 metadata:
   author: "runsheng_du"
-  version: "1.0.1"
+  version: "1.0.2"
 ---
 
 # 销售比价 Skill (Sales Price Comparison)
@@ -102,3 +102,11 @@ metadata:
    - 若原始信息源为外币报价（如美元 USD），必须换算为人民币展示，并在括号内附注原始币种价格及所用参考汇率（例如：`约 21.6 元 / 百万 Tokens（原价 USD 3.00，按 1 USD ≈ 7.2 CNY 换算）`）。
 3. **比价要求**：
    - **横向比价总结**：当查询涉及**多个模型、多款硬件或多渠道报价**时，输出需要补充**同口径横向比价结论**（如统一计费单位后的单价高低对比、多渠道价格区间及价差摘要），便于销售直接比价。
+
+---
+
+## 更新本 Skill
+
+```bash
+git -C "<本 Skill 所在目录>" pull --ff-only https://github.com/runshengdu/sales-price-comparison.git main
+```
